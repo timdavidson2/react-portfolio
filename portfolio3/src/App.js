@@ -1,7 +1,9 @@
+import { Container } from "@mui/material";
+import React from "react";
 import "./App.css";
 
 function App() {
-  return <div className="App">Our Resume Clone</div>;
+  return <Container></Container>;
 }
 
 export default App;
