@@ -1,11 +1,7 @@
 import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">Our Resume Clone</header>
-    </div>
-  );
+  return <div className="App">Our Resume Clone</div>;
 }
 
 export default App;
