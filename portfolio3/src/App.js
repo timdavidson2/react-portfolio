@@ -17,7 +17,11 @@ function App() {
           <Profile />
         </Grid>
         <Grid item xs style={{ backgroundColor: "red" }}>
-          xyz
+          <Header />
+          <Portfolio />
+          <Resume />
+          <Contact />
+          <Footer />
         </Grid>
       </Grid>
     </Container>
