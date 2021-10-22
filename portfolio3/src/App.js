@@ -28,9 +28,11 @@ function App() {
         </Grid>
         <Grid item xs style={{ backgroundColor: "red" }}>
           <Header />
-          <Portfolio />
-          <Resume />
-          <Contact />
+          <Router>
+            <Portfolio />
+            <Resume />
+            <Contact />
+          </Router>
           <Footer />
         </Grid>
       </Grid>
