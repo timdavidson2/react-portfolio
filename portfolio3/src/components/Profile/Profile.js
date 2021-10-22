@@ -12,7 +12,10 @@ const Profile = () => {
           Web Developer / Software Engineer
         </Typography>
         <figure className="profile-image">
-          <img src="" alt="" />
+          <img
+            src="../..//assets/images/profileImage.jpg"
+            alt="man on a computer"
+          />
         </figure>
         <div className="profile-information">
           Insert Timeline

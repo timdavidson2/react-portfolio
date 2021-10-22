@@ -4,3 +4,20 @@
   display: inline-block;
   width: 100%;
 }
+
+.profile-name {
+  line-height: 18px;
+  padding: 20px;
+}
+
+.profile-name .name {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.profile-name .title {
+  font-size: 14px;
+  color: rgb(103, 100, 100);
+  font-style: oblique;
+}
