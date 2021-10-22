@@ -29,7 +29,9 @@ function App() {
         <Grid item xs style={{ backgroundColor: "red" }}>
           <Header />
           <Router>
-            <Portfolio />
+            <Route path="/Portfolio">
+              <Portfolio />
+            </Route>
             <Resume />
             <Contact />
           </Router>
