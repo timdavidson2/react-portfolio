@@ -21,3 +21,7 @@
   color: rgb(103, 100, 100);
   font-style: oblique;
 }
+
+.profile-image {
+  margin-top: -10px;
+}
