@@ -13,7 +13,7 @@ const Profile = () => {
         </Typography>
         <figure className="profile-image">
           <img
-            src="../..//assets/images/profileImage.jpg"
+            src={require("../../assets/images/profileImage.png")}
             alt="man on a computer"
           />
         </figure>

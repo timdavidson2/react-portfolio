@@ -12,16 +12,19 @@
 
 .profile-name .name {
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
 }
 
 .profile-name .title {
-  font-size: 14px;
+  font-size: 13px;
   color: rgb(103, 100, 100);
   font-style: oblique;
 }
 
 .profile-image {
-  margin-top: -10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  --webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+  clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
 }
