@@ -1,5 +1,7 @@
-import { Typography } from "@mui/material";
 import React from "react";
+import { Typography } from "@mui/material";
+
+import CustomTimline from "../Timeline/Timeline";
 
 import "./Profile.css";
 
@@ -20,7 +22,7 @@ const Profile = () => {
         />
       </figure>
       <div className="profile-information">
-        Insert Timeline
+        <CustomTimline />
         <br />
         <button>My Button</button>
       </div>
