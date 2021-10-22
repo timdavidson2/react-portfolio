@@ -9,6 +9,7 @@ import Resume from "./pages/Resume/Resume";
 import Contact from "./pages/Contact/Contact";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Redirect } from "react-router-dom";
 
 import "./App.css";
 
@@ -30,11 +31,12 @@ function App() {
           <Header />
           <Router>
             <Switch>
+              <Redirect exact from="/" to="/Resume" />
+              <Route path="/Resume">
+                <Resume />
+              </Route>
               <Route path="/Portfolio">
                 <Portfolio />
-              </Route>
-              <Route path="/">
-                <Resume />
               </Route>
               <Route path="/Contact">
                 <Contact />
