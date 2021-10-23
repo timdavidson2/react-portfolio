@@ -1,7 +1,8 @@
 import React from "react";
 import { Typography } from "@mui/material";
 
-import CustomTimline from "../Timeline/Timeline";
+// import CustomTimeline from "../Timeline/Timeline";
+import ProfileImage from "../../assets/images/selfImage.jpg";
 
 import "./Profile.css";
 
@@ -15,14 +16,10 @@ const Profile = () => {
         </Typography>
       </div>
       <figure className="profile-image">
-        <img
-          className="profile-image"
-          src="../../assets/images/selfImage.jpg"
-          alt="man on a computer"
-        />
+        <img src={ProfileImage} alt="man on a computer" />
       </figure>
       <div className="profile-information">
-        <CustomTimline />
+        {/* <CustomTimeline /> */}
         <br />
         <button>My Button</button>
       </div>
