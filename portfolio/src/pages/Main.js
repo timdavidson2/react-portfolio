@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
-import "../../styles/Header.css";
+import "../styles/Main.css";
 
 const Header = () => {
   return (
