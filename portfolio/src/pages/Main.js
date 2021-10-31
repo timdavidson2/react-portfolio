@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Typed from "react-typed";
 import "../styles/Main.css";
 
 const Main = () => {
+  useEffect(() => {
+    window.scroll(0, 0);
+  }, []);
   return (
     <div className="header-wrapper">
       <div className="main-info">
