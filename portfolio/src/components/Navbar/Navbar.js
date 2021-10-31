@@ -1,10 +1,11 @@
 import React from "react";
-import "../styles/Navbar.css";
+
+import "../../styles/Navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
-        <a className="navbar-brand" href="/">
+        <a className="navbar-brand" Link to="/">
           TIMOTHY DAVIDSON
         </a>
         <button
