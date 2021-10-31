@@ -22,15 +22,15 @@ nav ul li {
   border-top: 0.1875rem solid var(--primary-dark);
 }
 
-.navbar-nav > li > a.active,
-.navbar-nav > li > a:focus {
+/* .nav-item {
   border-top: 0.1875rem solid var(--primary-blue);
-}
+} */
 
-.navbar-nav > li > a:hover {
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-white);
 }
 
-nav span {
+/* nav span {
   color: var(--primary-white);
-}
+} */

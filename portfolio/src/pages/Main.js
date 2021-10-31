@@ -2,7 +2,7 @@ import React from "react";
 import Typed from "react-typed";
 import "../styles/Main.css";
 
-const Header = () => {
+const Main = () => {
   return (
     <div className="header-wrapper">
       <div className="main-info">
@@ -10,14 +10,14 @@ const Header = () => {
         <Typed
           className="typed-text"
           strings={[
-            "HTML5",
-            "CSS3",
+            "HTML 5",
+            "CSS 3",
             "JavaScript",
             "node.js",
             "Bootstrap",
-            "MERN",
+            "M.E.R.N.",
           ]}
-          typeSpeed={150}
+          typeSpeed={175}
           backSpeed={75}
           loop
         />
@@ -26,4 +26,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Main;

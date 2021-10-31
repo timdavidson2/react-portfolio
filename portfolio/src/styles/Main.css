@@ -19,7 +19,7 @@
   font-family: var(--header-font);
   color: var(--primary-white);
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-shadow: 1px 3px #000;
   /* font-weight: bolder; */
   /* letter-spacing: 10px; */
@@ -27,7 +27,7 @@
 
 .typed-text {
   font-family: var(--typed-text-font);
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--primary-blue);
   letter-spacing: 2px;
   background-color: #000;
