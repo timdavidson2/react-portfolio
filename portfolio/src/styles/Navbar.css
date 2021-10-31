@@ -1,0 +1,36 @@
+/* NAVBAR */
+
+/* MENU LINK */
+.navbar .navbar-brand {
+  font-size: 3rem;
+  font-style: italic;
+  letter-spacing: 0.5rem;
+}
+
+.nav-link {
+  /* font-weight: 500; */
+  letter-spacing: 0.0375rem;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-blue);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-white);
+}
+
+nav span {
+  color: var(--primary-white);
+}
