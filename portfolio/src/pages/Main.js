@@ -24,6 +24,13 @@ const Main = () => {
           backSpeed={75}
           loop
         />
+        <a
+          class="btn btn-primary btn-lg"
+          href="../images/resume.docx"
+          role="button"
+        >
+          Resume
+        </a>
       </div>
     </div>
   );

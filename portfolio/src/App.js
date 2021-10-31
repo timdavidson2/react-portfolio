@@ -8,6 +8,7 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer/Footer";
 import NotFound from "./pages/NotFound";
+import Resume from "./images/resume.docx";
 
 function App() {
   return (
