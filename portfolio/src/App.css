@@ -3,6 +3,7 @@
 :root {
   --primary-white: rgb(255, 255, 255);
   --primary-dark: rgba(255, 255, 255, 0);
+  --primary-blue: rgb(52, 168, 235);
 }
 
 body {
@@ -74,6 +75,10 @@ nav ul li {
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-blue);
+}
+
+.navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-white);
 }
 
