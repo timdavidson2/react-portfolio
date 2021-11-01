@@ -9,6 +9,12 @@
 
 .main-info {
   display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 400px;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -33,4 +39,13 @@
   background-color: #000;
   border-radius: 20px;
   padding: 0 10px;
+  margin-top: 3rem;
+}
+
+.btn-resume {
+  margin-top: 3rem;
+  border-radius: 0.625rem;
+  font-family: var(--header-font);
+  font-weight: bold;
+  letter-spacing: 0.25rem;
 }

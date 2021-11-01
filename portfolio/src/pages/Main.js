@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import Typed from "react-typed";
 import "../styles/Main.css";
 
@@ -24,6 +25,13 @@ const Main = () => {
           backSpeed={75}
           loop
         />
+        <Link
+          to="/Resume"
+          className="btn btn-light btn-lg btn-resume"
+          role="button"
+        >
+          Resume
+        </Link>
       </div>
     </div>
   );

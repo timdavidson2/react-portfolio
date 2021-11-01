@@ -5,10 +5,10 @@ import Navbar from "./components/Navbar/Navbar";
 import Main from "./pages/Main";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer/Footer";
 import NotFound from "./pages/NotFound";
-import Resume from "./images/resume.docx";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
         <Route exact path="/" component={Main} />
         <Route path="/about" component={About} />
         <Route path="/portfolio" component={Portfolio} />
+        <Route path="/resume" component={Resume} />
         <Route path="/contact" component={Contact} />
         <Route component={NotFound} />
       </Switch>
