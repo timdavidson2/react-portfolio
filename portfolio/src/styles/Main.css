@@ -47,5 +47,7 @@
   border-radius: 0.625rem;
   font-family: var(--header-font);
   font-weight: bold;
+  font-size: 2rem;
   letter-spacing: 0.25rem;
+  border: 2px solid var(--primary-white);
 }
