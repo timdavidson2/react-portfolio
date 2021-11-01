@@ -27,7 +27,7 @@ const Main = () => {
         />
         <Link
           to="/Resume"
-          className="btn btn-light btn-lg btn-resume"
+          className="btn btn-primary  btn-lg btn-resume px-4"
           role="button"
         >
           Resume
