@@ -1,2 +1,9 @@
-.about-photo {
+.about-photo > img {
+  height: 400px;
+  border-radius: 50%;
+}
+
+.about-text {
+  /* font-family: var(--header-font); */
+  font-size: 1.25rem;
 }
