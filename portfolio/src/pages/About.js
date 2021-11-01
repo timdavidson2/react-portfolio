@@ -8,10 +8,12 @@ const About = () => {
   return (
     <div className="container py-5">
       <div className="row">
-        <div className="col-lg-6 col-xm-12 about-photo">
+        <div className="col-lg-6 col-xm-12 about-photo pt-5">
           <img src={myImage} alt="Tim" />
         </div>
+
         <div className="col-lg-6 col-xm-12 about-text">
+          <h1 className="about-heading">about me</h1>
           <p>
             Hello, my name is Tim and I am a Full Stack Web Developer and U.S.
             Army veteran with a background in military leadership, finance, IT
