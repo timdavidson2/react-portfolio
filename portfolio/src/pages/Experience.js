@@ -24,23 +24,23 @@ const Experience = () => {
       cardTitle: "Dominion Energy, Richmond, Va.",
       cardSubtitle: "Sr. LAN Administator (Contractor)",
       cardDetailedText:
-        "Imaged new laptops and PCs to test for use in the enterprise environment. Created, deployed, and supported applications with the KACE system as requested with ServiceNow. Create PowerShell scripts for support of KACE deployed applications. Participated in daily, weekly and monthly Agile Scrum Sessions to explain work process.",
+        "Tested applications being deployed with new SCCM CB for errors that would cause diruption to power plants or distribution grid. Refactored applications to run on SCCM CB from SCCM 2012.Provided 3rd level support as requested by ServiceNow ticket. ",
     },
     {
       title: "June 2016-September 2018",
       cardTitle: "Union Bank & Trust, Ruther Glen, Va.",
       cardSubtitle: "IT Operations Specialist",
-      cardDetailedText: "",
+      cardDetailedText: "Managed the enterprise IT equipment and asset deployment by tracking with asset management system. Conducted periodic inventory checks at many locations across Virginia. Created pc images, imaged PCs and laptops, tested for security and functionality. Worked with IT Security department to remediate top 10 security events per Nexpose Rapid 7 report.   ",
     },
     {
       title: "May 2014-June 2016",
       cardTitle: "Virginia College, Richmond, Va.",
       cardSubtitle: "Director of Network Technician Program",
-      cardDetailedText: "",
+      cardDetailedText: "Acted as the department head with 2 insrtuctors below me. Ensured that all teaching qualifications met the needed requirements of state regulations provided. Worked with the recruiting department to increase student count. Raised the program retention and new student recruiting from 22% to 80%.",
     },
     {
       title: "November 2013-May 2014",
-      cardTitle: "BelTechlogix, Richmond, Va.",
+      cardTitle: "BellTechlogix, Richmond, Va.",
       cardSubtitle: "Lead Deployment Technician on Atria Win7 refresh project",
       cardDetailedText: "",
     },
@@ -51,7 +51,7 @@ const Experience = () => {
       cardDetailedText: "",
     },
     {
-      title: "May 2011-May 201",
+      title: "May 2011-May 2012",
       cardTitle: "Wells Fargo, Richmond, Va.",
       cardSubtitle: "Help Desk (Contractor)",
       cardDetailedText: "",
