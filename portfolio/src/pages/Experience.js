@@ -42,19 +42,25 @@ const Experience = () => {
       title: "November 2013-May 2014",
       cardTitle: "BellTechlogix, Richmond, Va.",
       cardSubtitle: "Lead Deployment Technician on Atria Win7 refresh project",
-      cardDetailedText: "",
+      cardDetailedText: "Trained 10 new team members to image, QA/QC and deploy PCs, laptops and tablets. Arranged for the deployment of 6,000 machines to the employees. Coordinated travel to locations in Virginia, Tennesee, Kentucky and Illinois. Supervised the deployment to assist in troubleshooting the transfer of data and software. Accounted for the placement of the new machine and return of the old one in an Excel spreadsheet that I created to use formulas to ensure proper asset management.",
     },
     {
       title: "May 2012-November 2013",
       cardTitle: "Va. Department of Medical Assistance Services, Richmond, Va.",
       cardSubtitle: "Systems Analyst II (Contractor)",
-      cardDetailedText: "",
+      cardDetailedText: "Acted as central point of contact between DMAS and VITA. Ensured that the employees understood the process of getting service and support from VITA. Worked with VITA to ensure the availabilty of equipment to service and provide temporary replacement to employee. Escalated any sensitive issues to the Information Systems manager. Monitored the monthly VITA buget to ensure that no charges for unused equipment.",
     },
     {
       title: "May 2011-May 2012",
       cardTitle: "Wells Fargo, Richmond, Va.",
       cardSubtitle: "Help Desk (Contractor)",
-      cardDetailedText: "",
+      cardDetailedText: "Acted as initial IT support contact for the 45,000 financial services representives. Worked with customer to fix issues and escalated issues to next level support. Assited customers with software updates and hardware replacement services. ",
+    },
+    {
+      title: "October 1998-May 2011",
+      cardTitle: "Boyette Insurance Agency Inc., Richmond, Va.",
+      cardSubtitle: "Financial Registered Representative",
+      cardDetailedText: "Worked with customers to achieve retirement financial goals, retirement goals and investment plans. Managed over $20 million in customer funds.",
     },
   ];
   return (
