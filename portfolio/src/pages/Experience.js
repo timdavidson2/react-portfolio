@@ -60,7 +60,7 @@ const Experience = () => {
   return (
     <>
       <div className="container experience-wrapper">
-        <h1 className="experience-heading">experiece page</h1>
+        <h1 className="experience-heading">experiece</h1>
         <hr />
         <div style={{ width: "100%", height: "100%" }}>
           <Chrono items={items} enableOutline mode="VERTICAL_ALTERNATING" />
