@@ -25,15 +25,9 @@ const Main = () => {
           backSpeed={75}
           loop
         />
-        <Link
-          to="/Resume"
-          className="btn btn-primary  btn-lg btn-resume px-4"
-          role="button"
-        >
-          Resume
-        </Link>
+        <a className="btn btn-primary btn-resume" href="https://docs.google.com/document/d/1X2gmgqfBeK2g4qnqEi6Id5V-qqmU-mpDWjGbCuO3UqU/edit?usp=sharing" target="_blank">Resume</a>
       </div>
-    </div>
+    </div >
   );
 };
 
