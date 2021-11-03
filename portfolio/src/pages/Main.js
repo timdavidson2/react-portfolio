@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 import Typed from "react-typed";
 import "../styles/Main.css";
 
@@ -25,7 +25,7 @@ const Main = () => {
           backSpeed={75}
           loop
         />
-        <a className="btn btn-primary btn-resume" href="https://docs.google.com/document/d/1X2gmgqfBeK2g4qnqEi6Id5V-qqmU-mpDWjGbCuO3UqU/edit?usp=sharing" target="_blank">Resume</a>
+        <Link className="btn btn-primary btn-resume" to="https://docs.google.com/document/d/1X2gmgqfBeK2g4qnqEi6Id5V-qqmU-mpDWjGbCuO3UqU/edit?usp=sharing" alt="Resume download" >Resume</Link>
       </div>
     </div >
   );
