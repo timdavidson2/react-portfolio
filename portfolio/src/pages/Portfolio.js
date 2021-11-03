@@ -13,8 +13,8 @@ function Portfolio() {
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
-  return <><div className="heading-wrapper">
-    <h1>Portfolio Page</h1> <p>Please find examples of app that I have created both individually and with teams.</p>
+  return <><div className="portfolio-heading-wrapper">
+    <h1>Portfolio Page</h1> <p className="portfolio-heading-text">Please find examples of app that I have created both individually and with teams.</p>
   </div>
     <div className="container">
       <Card className="card m-2" style={{ width: '18rem' }}>
