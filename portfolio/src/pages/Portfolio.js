@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import image1 from "../images/weatherApp.png"
 import image2 from "../images/musicMatcher.jpeg"
+import image3 from "../images/progressiveBudget.png"
 
 import "../styles/Portfolio.css";
 
@@ -42,17 +43,20 @@ function Portfolio() {
           <Button href="https://timdavidson2.github.io/musicMatcher/" target="_blank" variant="primary">Visit Music Matcher</Button>
         </Card.Body>
       </Card>
-      {/* <Card className="card m-2" style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={image} />
+      <Card className="card m-2" style={{ width: '18rem' }}>
+        <Card.Img variant="top" src={image3} height="157px" />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>Progressive Budget</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
+            Use this to track income and expenses when traveling.
           </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Card.Text>
+            GitHub: https://github.com/timdavidson2/progressive-budget
+          </Card.Text>
+          <Button href="https://evening-savannah-22284.herokuapp.com/" target="_blank" variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
+      {/* 
       <Card className="card m-2" style={{ width: '18rem' }}>
         <Card.Img variant="top" src={image} />
         <Card.Body>
