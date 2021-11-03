@@ -53,7 +53,7 @@ function Portfolio() {
           <Card.Text>
             GitHub: https://github.com/timdavidson2/progressive-budget
           </Card.Text>
-          <Button href="https://evening-savannah-22284.herokuapp.com/" target="_blank" variant="primary">Go somewhere</Button>
+          <Button href="https://evening-savannah-22284.herokuapp.com/" target="_blank" variant="primary">Try Progressive Budget</Button>
         </Card.Body>
       </Card>
       {/* 
