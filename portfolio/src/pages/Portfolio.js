@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import image1 from "../images/weatherApp.png"
+import image2 from "../images/musicMatcher.jpeg"
 
 import "../styles/Portfolio.css";
 
@@ -27,7 +28,18 @@ function Portfolio() {
             Simply put in a city and this app will return current weather and a 5 day forecast.
           </Card.Text>
           <Card.Text>GitHub: https://github.com/timdavidson2/06-weather-dashboard</Card.Text>
-          <Button href="https://timdavidson2.github.io/06-weather-dashboard/" target="_blank" variant="primary">Go somewhere</Button>
+          <Button href="https://timdavidson2.github.io/06-weather-dashboard/" target="_blank" variant="primary">Visit Weather Dashboard</Button>
+        </Card.Body>
+      </Card>
+      <Card className="card m-2" style={{ width: '18rem' }}>
+        <Card.Img variant="top" src={image2} />
+        <Card.Body>
+          <Card.Title>Music Matcher</Card.Title>
+          <Card.Text>
+            Search for artists that are in the same genre as you like to listen to.
+          </Card.Text>
+          <Card.Text>GitHub: https://github.com/timdavidson2/musicMatcher</Card.Text>
+          <Button href="https://timdavidson2.github.io/musicMatcher/" target="_blank" variant="primary">Visit Music Matcher</Button>
         </Card.Body>
       </Card>
       {/* <Card className="card m-2" style={{ width: '18rem' }}>
