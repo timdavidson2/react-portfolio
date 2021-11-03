@@ -65,7 +65,7 @@ const Experience = () => {
   ];
   return (
     <>
-      <div className="container experience-wrapper">
+      <div className="container experience-wrapper my-5">
         <h1 className="experience-heading">experience</h1>
         <hr />
         <div style={{ width: "100%", height: "100%" }}>
