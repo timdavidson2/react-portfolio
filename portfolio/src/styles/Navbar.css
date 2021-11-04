@@ -1,5 +1,9 @@
 /* NAVBAR */
 
+.navbar {
+  border-radius: 0.625rem;
+}
+
 /* MENU LINK */
 .navbar .navbar-brand {
   font-size: 2rem;

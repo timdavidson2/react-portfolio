@@ -1,3 +1,14 @@
-.heading {
-  text-align: left;
+.footer {
+  background-color: #343a40;
+  color: var(--primary-white);
+  border-radius: 10px;
+}
+
+.footer a {
+  color: var(--primary-white);
+}
+
+.footer a:hover {
+  color: var(--primary-blue);
+  text-decoration: none;
 }
