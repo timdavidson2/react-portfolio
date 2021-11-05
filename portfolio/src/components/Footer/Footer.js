@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 import "../../styles/Footer.css";
 
 const Footer = () => {
@@ -20,7 +20,13 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-5 icon-image">
-          <FaGithub url={"https://github.com/timdavidson2"} size={36} />
+          <a href="https://github.com/timdavidson2" alt="github" target="_blank" rel="noreferrer" > <FaGithub size={36} /></a>
+        </div>
+        <div className="mt-5 icon-image">
+          <a href="https://www.linkedin.com/in/tim-davidson-98a20112/" alt="linked in" target="_blank" rel="noreferrer" ><FaLinkedin size={36} /></a>
+        </div>
+        <div className="mt-5 icon-image">
+          <a href="https://stackoverflow.com/" alt="stack overflow" target="_blank" rel="noreferrer" ><FaStackOverflow size={36} /></a>
         </div>
         {/* </div> */}
       </div>
