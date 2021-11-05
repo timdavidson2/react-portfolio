@@ -12,3 +12,7 @@
   color: var(--primary-blue);
   text-decoration: none;
 }
+
+.footer {
+  justify-content: center;
+}
