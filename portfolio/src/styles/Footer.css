@@ -1,7 +1,6 @@
 .footer {
   background-color: #343a40;
   color: var(--primary-white);
-  border-radius: 10px;
 }
 
 .footer a {
